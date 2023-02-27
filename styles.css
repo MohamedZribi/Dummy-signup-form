@@ -1,0 +1,75 @@
+:root {
+    margin:0;
+    height:100%;
+}
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* align-items: stretch; */
+    
+}
+
+
+
+.background{
+
+    background-image: url(images/serene_woman.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30%;
+    opacity: 0.9;
+}
+
+
+
+
+
+.registration {
+    padding: 50px;
+    height: 90vb;
+    width: 100vb;
+    background-color: azure;
+}
+
+.random-paragraph{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#registration-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background > .logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    background-color: white;
+    opacity: 0.5;
+    height: 20%;
+    width: auto;
+
+
+}
+
+.background > .logo > img{
+    height: 80%;
+    width: 30%;
+
+}
+
+.background > .logo > img >h1{
+    font-size: 25px;
+}
+

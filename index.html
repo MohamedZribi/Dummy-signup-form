@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Sign up now to gain access</title>
+</head>
+<body>
+    <div class="background">
+        <div class="logo"><img src="images/logo.png" alt="">
+        <h1>THOR</h1></div>
+    </div>
+
+    <div class="registration">
+        <p class="random-paragraph">Ten more steps. If he could take ten more steps it would be over, but his legs wouldn't move. He tried to will them to work, but they wouldn't listen to his brain. Ten more steps and it would be over but it didn't appear he would be able to do it.</p>
+        <button class="register">Create an account</button>
+        <!-- The form goes here -->
+        <div id="registration-form">
+            <div class="left-form">
+                <div class="input">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" required="">   
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required="">
+                </div>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="passwor" id="passwor" required="">
+                </div>
+            </div>
+            <div class="right-form">
+                <div class="input">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="input">
+                    <label for="phone-number">Phone number</label>
+                    <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                </div>
+                <div class="input">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required="">
+                </div>
+            </div>
+        </div>
+        <p>Already have an account? <a href="#">click here.</a></p>
+
+    </div>
+</body>
+</html>
